@@ -1,0 +1,18 @@
+        div.data{
+            width:80%;
+            margin-left:10%;
+            border:1px solid black;
+            box-shadow:2px 2px 10px black;
+            background:#eae8dc;
+            padding:4%;
+        }
+
+
+
+
+
+div.data img{width:100%; height:auto;border-radius:10px;}
+
+    body{background-color:#c8d7d2;}
+*{box-sizing:border-box;}
+

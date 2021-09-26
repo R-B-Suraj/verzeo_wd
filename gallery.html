@@ -1,0 +1,227 @@
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0";>
+    <link rel="stylesheet" type="text/css" href="commonstyle.css">
+    <title>ideas</title>
+
+    <style>
+
+
+ html{font-family:"Lucida Console",monospace;}
+
+ .flexhead div>a{text-decoration:none;
+   color:white;}
+ 
+ 
+
+
+*{box-sizing:border-box;}
+
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+      @media only screen and (min-width:600px){
+  .flexhead{ 
+      
+        display:flex;
+    flex-direction:row; 
+       position:sticky;
+       top:0px;
+         background:#373234;
+         z-index: 1;
+         align-items:center;
+        
+  }
+
+
+
+    .flexhead>div{
+        height:40px;
+        font-size:30px;
+        flex-basis:10%;
+        color:white;
+        margin-right:26px;
+        margin-left:6px;
+        
+        
+    }
+
+ div>img{
+  height:40px;
+  border-radius:50%;
+ }
+
+
+
+}
+
+@media only screen and (max-width:599px){
+  .flexhead{ 
+  
+        display:flex;
+    flex-direction:column;
+       position:sticky;
+       top:0px;
+      z-index: 1;
+         background:#373234;
+        }
+
+
+
+    .flexhead>div{
+        height:20px;
+        font-size:15px;
+        text-align:center;
+        flex-basis:10%;
+        color:white;
+        margin-right:26px;
+        margin-left:6px;
+        
+        
+    }
+
+ div>img{
+  height:30px;
+  border-radius:50%;
+ }
+
+}
+
+
+div:hover>a{background:white; color:black;}
+
+a.contact{
+    margin-left: 1%;
+  height:30px; 
+  position:absolute;
+  font-size:25px;
+  color:white;
+  display:inline-block;
+  background:#e50914;
+  border:1px solid #e50914;
+  box-shadow: 1px 1px 8px #b81d24;
+  border-radius:10%;
+  opacity:0.3;
+  text-decoration:none;
+  animation:anicontact 1s ease-in-out 0s infinite ;
+  }
+
+@keyframes anicontact{
+  0%{opacity:0.3;}
+  50%{opacity:1;}
+  100%{opacity:0.3; }
+}
+
+
+
+
+    </style>
+
+</head>
+
+
+<body style="background-color:#c8d7d2;">
+
+
+
+<div class="flexhead"  margin=0px>
+    <div><a href="index.html">HOME</a></div>
+    <DIV><a href="ideas.html">IDEAS</a></DIV>
+   
+    <DIV><a href="gallery.html">GALLERY</a></DIV><div></div><div></div><div></div>
+    <div width=20% align=right><img src="images\electricity.jpg"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<br>
+<div class="data">
+ 
+
+<div class="row"> 
+  <div class="column">
+    <img src="images/tesla-g.jpg" style="width:100%">
+    
+     <img src="images/teslathoughtcamera-g.jpg" style="width:100%">
+    <img src="images/teslaacinduction-g.jpg" style="width:100%">
+    <img src="images/teslaearthquake-g.jpg" style="width:100%">
+    
+    
+   
+    <img src="images/tesladeathbeam-g.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="images/teslapyramid-g.jpg" style="width:100%">
+    <img src="images/teslaresearch-g.jpg" style="width:100%">
+   <img src="images/coiltesla-g.jpg" style="width:100%">
+    <img src="images/teslacoil-g.jpg" style="width:100%">
+    <img src="images/teslauniversity-g.jpg" style="width:100%">
+     
+     <img src="images/teslawireless-g.jpg" style="width:100%">
+    
+  </div> 
+   
+
+
+
+
+</div></div>
+
+<br> <br>
+    <a class=contact href="contact.html">CONTACT</a>
+
+    <br> <br>
+    <br> 
+
+
+
+<div style="position:sticky; top:100%; width:100%; height:40px; background:#373234;font-size:35px; text-align: center; vertical-align:middle;">
+  
+
+</div>
+
+
+
+
+</body>
+</html>
+
+
+
